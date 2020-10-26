@@ -1,0 +1,36 @@
+Remember Not To Give Any Spaces In Folders Name
+
+Getting Started Notes:-
+
+
+1) Creating Virtual Environment
+	-->conda create --prefix ./env pandas numpy matplotlib scikit-learn
+	now the output was
+	# To activate this environment, use
+	#
+	#     $ conda activate /Users/somyajaiswal/Desktop/Machine_Learning/Test/env
+	#
+	# To deactivate an active environment, use
+	#
+	#     $ conda deactivate
+
+	normal installiation
+	 -->conda install jupyter
+
+2) To Check you are on which environment do 
+	--> conda env lisk
+
+3) To start jupyter notebook 
+	--> jupyter notebook
+
+
+	IF Plots dont show up then 
+	inside jupyter notebook
+		--> %matplotlib inline
+		--> import matplotlib.pyplot as plt
+
+To run any terminal command on the jupyter notebook we use bang operator eg:- !ls
+
+To install any packages from jupyter notebook to the conda environment use 
+	--> import sys
+	--> !conda install --yes --prefix {sys.prefix} seaborn

@@ -1,0 +1,36 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base >=3.3.1,<3.3.2.0a0"
+  ],
+  "extracted_package_dir": "/Users/somyajaiswal/opt/miniconda3/pkgs/matplotlib-3.3.1-0",
+  "features": "",
+  "files": [],
+  "fn": "matplotlib-3.3.1-0.conda",
+  "legacy_bz2_md5": "2fd17db55a97341f44fc2d158c05f1ae",
+  "legacy_bz2_size": 23894,
+  "license": "LicenseRef-PSF-based",
+  "license_family": "PSF",
+  "link": {
+    "source": "/Users/somyajaiswal/opt/miniconda3/pkgs/matplotlib-3.3.1-0",
+    "type": 1
+  },
+  "md5": "5ff81eae84952d76f6599b41187269d1",
+  "name": "matplotlib",
+  "package_tarball_full_path": "/Users/somyajaiswal/opt/miniconda3/pkgs/matplotlib-3.3.1-0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "matplotlib",
+  "sha256": "4dd8f4a115d85387e8c5fea161241a3336605c385b0b92f3a10e4f5cb763e8cd",
+  "size": 24775,
+  "subdir": "osx-64",
+  "timestamp": 1597876472484,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/matplotlib-3.3.1-0.conda",
+  "version": "3.3.1"
+}
